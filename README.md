@@ -1,1 +1,1 @@
-# lume
+## Luminium WebApp Scaffolding
