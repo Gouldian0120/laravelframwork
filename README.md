@@ -7,7 +7,7 @@
 </p>
 ## Lume - Under Development
 #### App Scaffolding for lumen and angular based projects:
-Lume use Laravel's micro framework lumen as a base and build an amazing UI on top of it which provide you quick and easy way to jump start your app.
+Lume use Laravel's micro framework [Lumen] (http://lumen.laravel.com) as a base and build an amazing UI on top of it which provide you quick and easy way to jump start your app.
 Best part of lume is, it comes with 2 different UI: one for landing page and other for dashboard from same CSS and JS vendor files but different config files. This gives you flexibility to have different look on Customer facing vs admin dashboard.
 
 ------------------
@@ -33,11 +33,10 @@ if above command doesn't work the try adding sudo
 - sudo composer install && npm install && bower install
 - gulp
 
-Now change the name of your .env.example file to .env
+Now change the name of your .env.example file to .env and run below command
 
 ------------------
-#### Database setup steps
-For database tables and seeding we have created 2 tables Users and Roles, to create table in your database, execute below commands
+For database table sand seeding we have created 2 tables Users and Roles, to create table in your database, execute below commands
 
 Set your db details in .env file and execute from project root folder
 - php artisan migrate
